@@ -1,6 +1,6 @@
 .d-flex {
     display: flex;
-    flex-direction: column; /* Stack the icons and switch vertically */
+    flex-direction: column; 
     align-items: center;
   }
   
@@ -11,9 +11,9 @@
   }
   /* Rotation styling for the switch */
 .rotate-switch .form-check-input {
-    transform: rotate(90deg); /* Rotate the switch by 90 degrees */
-    transform-origin: center; /* Keep the rotation centered */
-    transition: transform 0.3s ease; /* Smooth rotation transition */
+    transform: rotate(90deg); 
+    transform-origin: center; 
+    transition: transform 0.3s ease;
   }
   
   

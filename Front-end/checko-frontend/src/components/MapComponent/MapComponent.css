@@ -11,14 +11,12 @@
 }
 
 
-/* Default marker style */
 .leaflet-div-icon img {
-    filter: none; /* Reset any existing color filters */
+    filter: none; 
   }
   
-  /* Change color on click */
   .leaflet-div-icon.clicked img {
-    filter: hue-rotate(180deg); /* Change the color using hue rotation */
+    filter: hue-rotate(180deg); 
   }
   
   

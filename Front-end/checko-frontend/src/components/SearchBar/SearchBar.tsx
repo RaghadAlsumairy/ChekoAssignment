@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect, useState } from "react";
 import "./SearchBar.css";
 import { FaList, FaSearch } from "react-icons/fa";
@@ -142,6 +143,7 @@ const SearchBar: React.FC<{ onSearch: (searchValue?: number[]) => void }> = ({
                 onClick={async () => {
                   updateFilterValue(filterV);
                   updateSearchValue(searchV);
+                  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
                   updateMenuBySearch(searchValue, filterV),
                     setSuggestedItems([]);
                   setFound(true);
