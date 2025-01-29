@@ -1,0 +1,13 @@
+.modal-footer.details{
+    justify-content:end !important;
+padding-right: 2px ;
+border-top:  0px solid grey !important;
+}
+
+p {
+    color: grey ;
+    font-weight: 500;
+}
+.calorie-label.header{
+    right : 0 !important
+}

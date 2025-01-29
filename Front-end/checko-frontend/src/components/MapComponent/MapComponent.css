@@ -1,0 +1,25 @@
+.tooltip-img{
+ width: 90px !important; 
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+.Ctooltip {
+    font-size: 16px; 
+    min-width: 400px !important; 
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/* Default marker style */
+.leaflet-div-icon img {
+    filter: none; /* Reset any existing color filters */
+  }
+  
+  /* Change color on click */
+  .leaflet-div-icon.clicked img {
+    filter: hue-rotate(180deg); /* Change the color using hue rotation */
+  }
+  
+  
+  

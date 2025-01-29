@@ -1,0 +1,73 @@
+
+  
+  .price {
+    font-size:19px;
+    font-weight:600 ;
+    color: #F4CBDF;
+  }
+  body.dark-mode .price {
+   
+    color: grey;
+  }
+  
+  .count-group {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    z-index: 1050; 
+  }
+  
+  .modal-content {
+    background-color:var(--secondary-color) !important;
+    border-radius: 35px !important;
+    padding:  20px 30px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* position: relative; */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px !important;
+    cursor: pointer;
+    background-color: rgb(202, 202, 202) !important;
+    border-radius: 40px;
+    color: white !important;
+  }
+  
+  .calorie-label{
+    background-color: #D0EAE3;
+    padding: 3px 5px;
+    border-radius: 10px;
+    color: #599887;
+    font-weight: 600;
+    position: relative;
+    right: 20%;
+    font-size: 12px;
+    min-height: 20px;
+    margin-bottom: 3px;
+  }
+  .col {
+    align-content: center;
+}
+  
